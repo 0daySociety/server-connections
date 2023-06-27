@@ -1,0 +1,112 @@
+body {
+  background-color: beige;
+ 
+}
+
+header{
+    background-color: green;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-bottom: 10px;    
+}
+
+.formArea{
+
+  display:flex;
+  justify-content: center;
+  
+}
+
+.form_one {
+    display: flex;
+    justify-content: center;
+
+
+  background-color: white;
+  padding: 20px;
+
+  border-radius: 15px;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+
+   display: inline-block; 
+
+  width: 50vh;
+  height: 30vh;
+}
+.form_one > label {
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+}
+
+.form_one > input{
+ border-radius: 3px;
+ border-color:rgb(214, 210, 210);
+ padding: 5px;
+ width: 35vh;
+}
+
+
+
+
+
+
+
+
+.form_one> div> button{
+   float: left;
+   justify-content: space-between;
+   margin-top: 10px;
+   padding: 10px;
+   font-size: medium;
+   color: white;
+   background-color: green;
+   border-radius: 5px;
+}
+
+/* js styles  */
+
+#AnimalType{
+  margin-top: 20px;
+  list-style-type: none;
+  width: 50vh;
+}
+
+#jsImage{
+  margin-top: 20px;
+  width: 300px;
+  height: 400px;
+}
+
+
+
+
+/* this is the buttons area sytlings  */
+
+#actionBtn{
+  width:300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+#dontationsBtn{
+  color: white;
+  background-color: green;
+  padding: 10px;
+}
+#dontationsBtn:hover{
+  background-color: black;
+}
+
+#deleteBtn{
+  color: white;
+  background-color: green;
+  padding: 10px;
+}
+#deleteBtn:hover{
+  background-color: black;
+}
